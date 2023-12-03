@@ -57,7 +57,7 @@
     @apply text-[36px] font-bold leading-[140%] tracking-tighter;
   }
   .bg {
-    @apply bg-gradient-to-r from-indigo-300 to-sky-200;
+    @apply bg-gradient-to-r from-slate-400 to-slate-200;
   }
   .bg2 {
     @apply bg-gradient-to-r from-slate-400 to-gray-300;
