@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
 
         {/* <img  alt="loading" src="https://static.brainpop.com/images/common/newHomepage/BPLoader.gif"/> */}
-      <video height="400" width="500" className='my-5 lg:my-0' autoPlay muted loop src={herovid}></video>
+      <video height="400" width="500" className='my-5 lg:my-0'  muted loop src={herovid}></video>
 
     
       </div>

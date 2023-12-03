@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
-    <div className=" bg-gradient-to-r from-gray-500 to-slate-400   h-[100vh] p-5 lg:flex items-center justify-center gap-10">
+    <div className=" bg h-[100vh] p-5 lg:flex items-center justify-center gap-10">
         {/* left side */}
-        <div className="flex flex-col items-center py-5">
+        <div className="flex flex-col items-center pb-5 mt-[-20px]">
             <p className="text-3xl my-5"><SiWelcometothejungle/></p>
             <h1 className="font-bold text-2xl lg:text-3xl">Welcome</h1>
             <p className="text-center my-2 lg:text-xl">
@@ -28,7 +28,7 @@ const SignUp = () => {
             duration: 0.5,
             ease: "easeOut",
           }}
-        className="bg-white p-8 rounded-l-[6rem] boxshadow lg:w-[450px]">
+        className="bg-white px-5 py-4 mt-[-20px] rounded-l-[6rem] boxshadow lg:w-[450px]">
             <h1 className='text-center text-2xl'>Register here</h1>
             <form>
 
@@ -36,13 +36,14 @@ const SignUp = () => {
                 
                  className="lg:flex flex-col my-5">
 
-                    <input className="my-3 box2 border-3 p-2 w-full" placeholder='name' />               
-                    <input className="my-3 box2 border-3 p-2 w-full" placeholder='username'/>
-                    <input className="my-3 box2 border-3 p-2 w-full" placeholder='email'/>
-                    <input className="my-3 box2 border-3 p-2 w-full" placeholder='password'/>
+                    <input className="my-3 box2 border-3 p-1 w-full" placeholder='name' />               
+                    <input className="my-3 box2 border-3 p-1 w-full" placeholder='username'/>
+                    <input className="my-3 box2 border-3 p-1 w-full" placeholder='email'/>
+                    <input className="my-3 box2 border-3 p-1 w-full" placeholder='password'/>
 
                 </div>
-                <button className="bg-gradient-to-r from-gray-500 to-slate-400 box2 my-5 flex justify-end px-7 py-3 rounded-lg">
+                
+                <button className="bg box2 mb-7 flex justify-end px-7 py-3 rounded-lg">
                 <p className="text-end "> Sign up</p>
                 </button>
 
