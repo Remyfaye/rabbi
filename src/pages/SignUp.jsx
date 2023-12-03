@@ -36,7 +36,7 @@ const SignUp = () => {
                 
                  className="lg:flex flex-col my-5">
 
-                    <input className="my-3 box2 border-3 p-1 w-full" placeholder='name' />               
+                    <input className="my-3 box2  border-black-2 p-1 w-full" placeholder='name' />               
                     <input className="my-3 box2 border-3 p-1 w-full" placeholder='username'/>
                     <input className="my-3 box2 border-3 p-1 w-full" placeholder='email'/>
                     <input className="my-3 box2 border-3 p-1 w-full" placeholder='password'/>
